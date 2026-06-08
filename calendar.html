@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar - School Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="menu-btn" id="menuBtn">➜</button>
+
+    <div class="overlay" id="overlay"></div>
+    
+    <marquee behavior="scroll" direction="left">
+        This is the pre-release version of the website, some features may not work as expected. Please be patient while we work on improving the website.
+    </marquee>
+
+    <div class="sidebar" id="sidebar">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="calendar.html">Calendar</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="bottom-sheet" id="bottomSheet">
+        <div class="sheet-header">
+            <h2 id="sheetTitle">Events</h2>
+        </div>
+        <div id="sheetContent"></div>
+    </div>
+
+    <h1 class="title">June 2026 Calendar</h1>
+    <div class="calendar" id="calendar"></div>
+
+    <script src="calend.js"></script>
+    <script src="script.js"></script>
+    <script src="cal.js"></script>
+
+</body>
+</html>
