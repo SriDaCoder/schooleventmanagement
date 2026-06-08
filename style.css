@@ -279,3 +279,26 @@ marquee {
 .contact-info h2 {
     color: white;
 }
+
+.content button {
+    padding: 15px 30px;
+    margin: 10px;
+    background: #222;
+    border: 1px solid #1d4ed8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.content button:hover {
+    background: #1d4ed8;
+    transition: backround 0.2s ease;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
