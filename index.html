@@ -7,6 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- From Uiverse.io by AatreyuShau --> 
+    <div class="ocean-backdrop"><div class="island-backdrop"></div></div>
+
+    <svg height="0" width="0">
+    <filter id="handDrawnNoise">
+        <feTurbulence
+        result="noise"
+        numOctaves="5"
+        baseFrequency="0.0065"
+        type="fractalNoise"
+        ></feTurbulence>
+        <feDisplacementMap
+        yChannelSelector="G"
+        xChannelSelector="R"
+        scale="900"
+        in2="noise"
+        in="SourceGraphic"
+        ></feDisplacementMap>
+    </filter>
+    </svg>
 
     <button class="menu-btn" id="menuBtn">➜</button>
 
